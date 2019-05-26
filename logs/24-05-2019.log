@@ -1,0 +1,6 @@
+[14: 58: 43] [ip]: ::ffff:127.0.0.1 - [method]: POST [url]: /insert/addAdmin HTTP/1.1 [status]: 200 [response-time]: 8.114 ms [client]: PostmanRuntime/7.13.0
+[15: 22: 28] [ip]: ::ffff:127.0.0.1 - [method]: POST [url]: /insert/addAdvantage HTTP/1.1 [status]: 200 [response-time]: 6.925 ms [client]: PostmanRuntime/7.13.0
+[15: 26: 35] [ip]: ::ffff:127.0.0.1 - [method]: POST [url]: /insert/addAward HTTP/1.1 [status]: 200 [response-time]: 7.325 ms [client]: PostmanRuntime/7.13.0
+[15: 26: 35] [ip]: ::ffff:127.0.0.1 - [method]: POST [url]: /insert/addAward HTTP/1.1 [status]: 400 [response-time]: 0.517 ms [client]: PostmanRuntime/7.13.0
+[15: 39: 23] [ip]: ::ffff:127.0.0.1 - [method]: POST [url]: /insert/addCallus HTTP/1.1 [status]: 400 [response-time]: 3.446 ms [client]: PostmanRuntime/7.13.0
+[15: 40: 39] [ip]: ::ffff:127.0.0.1 - [method]: POST [url]: /insert/addCallus HTTP/1.1 [status]: 200 [response-time]: 6.487 ms [client]: PostmanRuntime/7.13.0
