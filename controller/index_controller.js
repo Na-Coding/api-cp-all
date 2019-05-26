@@ -46,10 +46,22 @@ exports.get_company_pageIndex = () => {
 }
 exports.get_course_pageIndex = () => {
     return (req, res, next) => {
+        let data = []
+        let data2 = []
+        let obj = []
+        let par = null
         db.query(
             `SELECT * FROM course`, (err, result) => {
                 if (err) throw err
-                req.result = result
+                result.map((e) => {
+                    data.push({ describe: e.describe })
+                    data2.push({
+                        title: e.title,
+                        detail: e.detail
+                    })
+                })
+                obj.push({ data: data, data2: data2 })
+                req.result = obj
                 next()
             }
         )
